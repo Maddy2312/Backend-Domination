@@ -4,7 +4,7 @@ const productsModel = require("../models/product.model");
 const orderModel = require("../models/order.model");
 const paymentModel = require("../models/payment.model");
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const Razorpay = require('razorpay');
 
